@@ -2,18 +2,18 @@ package br.com.unisys.iagro.model;
 
 public class Fornecedor implements Pessoa {
 
-    private int id;
+    private Long id;
     private String nome;
     private String cnpj;
     private String email;
     private String endereco;
     private String numeroCelular;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
