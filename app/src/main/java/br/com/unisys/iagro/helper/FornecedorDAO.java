@@ -104,10 +104,10 @@ public class FornecedorDAO implements IFornecedorDAO {
             Fornecedor fornecedor = new Fornecedor();
             fornecedor.setId(id);
             fornecedor.setNome(nomeFornec);
-            fornecedor.setNome(cnpjFornec);
-            fornecedor.setNome(emailFornec);
-            fornecedor.setNome(enderecoFornec);
-            fornecedor.setNome(numeroFornec);
+            fornecedor.setCnpj(cnpjFornec);
+            fornecedor.setEmail(emailFornec);
+            fornecedor.setEndereco(enderecoFornec);
+            fornecedor.setNumeroCelular(numeroFornec);
 
             fornecedores.add(fornecedor);
         }
