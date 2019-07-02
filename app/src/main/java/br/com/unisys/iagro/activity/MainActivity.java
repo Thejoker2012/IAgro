@@ -1,4 +1,4 @@
-package br.com.unisys.iagro;
+package br.com.unisys.iagro.activity;
 
 import android.os.Bundle;
 
@@ -20,6 +20,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+
+import br.com.unisys.iagro.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
